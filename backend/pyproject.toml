@@ -1,0 +1,16 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "openai>=3.35.1",
+    "pydantic-settings>=2.15.0",
+    "pypdf>=6.21.1",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
+    "qdrant-client>=1.19.1",
+    "uvicorn[standard]>=0.52.4",
+]
